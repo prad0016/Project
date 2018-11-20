@@ -143,15 +143,7 @@ nav.navbar.navbar-default{
   text-shadow:1px 1px 1px rgba(0,0,0,0.4);
 }
 
-.navbar-brand span.text-title{
-  text-transform:uppercase;
-  font-weight:bold;
-}
-
 @media (max-width:767px) {
-  .navbar-brand span.text-title{
-    display:none;
-  }
 
   .label-slash{
     display: none;
@@ -214,15 +206,6 @@ label{
 
 .post-title .author{
   text-transform:uppercase;
-}
-
-.post-body figure{
-  margin-bottom:10px;
-  text-align:center;
-}
-
-.post-title .author span{
-  margin-left:5px;
 }
 
 .post-title h1{
