@@ -9,11 +9,6 @@ header{
   background-size:contain;
 }
 
-.row{
-
-  width:1150px;
-
-}
 
 .navbar{
 
@@ -41,30 +36,14 @@ header{
 
 }
 
-@media (max-width:767px) {
+@media (max-width:1103px) {
   header{
     height:525px;
     background:url(../../assets/img/1.jpg) no-repeat center;
     background-size:cover;
   }
 
-  body{
 
-    width:375px;
-
-  }
-
-  .row{
-
-    width:375px;
-
-  }
-  #navcol-1 .nav-logo{
-
-    padding-left: 25px;
-    padding-right: 15px;
-
-  }
 
 }
 #navcol-2 .nav{
@@ -76,6 +55,12 @@ header{
   #navcol-2 .nav{
 
     padding-left: 0px;
+
+  }
+  #navcol-1 .nav-logo{
+
+    padding-left: 25px;
+    padding-right: 15px;
 
   }
 
@@ -142,11 +127,21 @@ nav.navbar.navbar-default{
   color:#fff !important;
   text-shadow:1px 1px 1px rgba(0,0,0,0.4);
 }
+#navcol-1 .contact-space{
 
+    padding-right:60px
+
+}
 @media (max-width:767px) {
 
   .label-slash{
     display: none;
+  }
+
+  #navcol-1 .contact-space{
+
+      padding-right:0px
+
   }
 
 }
@@ -167,7 +162,7 @@ label{
   top:-2px;
 }
 
-@media (min-width:768px) {
+@media (min-width:1103px) {
   .navbar-nav li{
     margin-left:5px;
   }
@@ -305,7 +300,7 @@ div.col-md-4.post-title{
   color:#fff;
 }
 
-@media (min-width:768px) {
+@media (min-width:1103px) {
   .navbar-collapse.collapse{
     display:block !important;
     height:auto !important;
@@ -314,13 +309,13 @@ div.col-md-4.post-title{
   }
 }
 
-@media (min-width:991px) {
+@media (min-width:1103px) {
   .navbar{
     border-radius:3px;
   }
 }
 
-@media (min-width:991px) {
+@media (min-width:1103px) {
   .navbar-toggle{
     display:none;
   }
