@@ -9,6 +9,13 @@ header{
   background-size:contain;
 }
 
+.col-separator{
+
+  border-color:#bbb7b7;
+  padding-bottom:15px;
+  width: 250px;
+
+}
 
 .navbar{
 
@@ -51,7 +58,7 @@ header{
   padding-left: 185px;
 
 }
-@media (max-width:767px) {
+@media (max-width:1103px) {
   #navcol-2 .nav{
 
     padding-left: 0px;
@@ -90,7 +97,7 @@ header{
   line-height:32px;
 }
 
-@media (max-width:767px) {
+@media (max-width:1103px) {
   .navbar-default .navbar-nav > li > a{
     color:#2f4871;
     font-weight:bold;
@@ -132,11 +139,29 @@ nav.navbar.navbar-default{
     padding-right:60px
 
 }
-@media (max-width:767px) {
+
+.col-md-3{
+
+  padding-left: 0px;
+  padding-right: 0px;
+
+}
+
+@media (max-width:1103px) {
 
   .label-slash{
     display: none;
   }
+
+  .col-separator{
+
+    border-color:#bbb7b7;
+    padding-bottom:15px;
+    width: 100%
+
+  }
+
+  
 
   #navcol-1 .contact-space{
 
@@ -214,7 +239,7 @@ label{
   margin-top:30px;
 }
 
-@media (max-width:767px) {
+@media (max-width:1103px) {
   .post-title h1{
     margin-top:20px;
     font-size:32px;
@@ -263,7 +288,7 @@ div.col-md-4.post-title{
 
 }
 
-@media (max-width:767px) {
+@media (max-width:1103px) {
   .navbar-default .navbar-nav > li > a{
     color:#2f4871;
     padding-left: 25px;
@@ -282,13 +307,6 @@ div.col-md-4.post-title{
   margin-bottom:0px;
   border:0;
   border-top:10px solid #93c0eb;
-}
-
-.col-separator{
-
-  border-color:#bbb7b7;
-  padding-bottom:15px;
-
 }
 
 .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus{
@@ -342,7 +360,7 @@ div.col-md-4.post-title{
   padding-right:0px;
 }
 
-@media (min-width:767px) {
+@media (min-width:1103px) {
 
   #navcol-1 .main-nav {
 
@@ -385,7 +403,7 @@ div.col-md-4.post-title{
 .post-title{
   padding-left: 30px;
 }
-@media (max-width:767px) {
+@media (max-width:1103px) {
   .post-body{
     padding-left: 15px;
   }
